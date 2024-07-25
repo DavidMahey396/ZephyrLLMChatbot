@@ -54,10 +54,6 @@ Remember, while this chatbot provides expert advice, it's always recommended to 
 2. Install the required dependencies (list them here)
 3. Run the main script to start the chatbot
 
-## Contributing
-
-We welcome contributions to improve the chatbot's knowledge base and functionality. Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests.
-
 ## Disclaimer
 
 This chatbot is designed to provide general advice and information. For valuable or sensitive artifacts, always consult with a professional conservator or restoration expert.
