@@ -1,41 +1,67 @@
-# ZephyrLLMChatbot
-A guideline to build no-cost LLM chatbot 
+# Historic Artifact Restoration Advisor Chatbot
 
-This README provides a structured and detailed guide to help users through the process of creating and deploying a customized LLM chatbot using Hugging Face Spaces and Gradio, highlighting key steps and customization options, complete with useful links for easy navigation.
+This repository contains a Large Language Model (LLM) chatbot designed to provide expert advice on the restoration and preservation of historical artifacts. The chatbot serves as a virtual advisor, offering guidance on various aspects of artifact care and restoration.
 
+## Features
 
-# Build and Deploy Your Custom LLM App in 5 Minutes for Free
+- Detailed guidance on restoration techniques
+- Preservation best practices
+- Damage assessment advice
+- Historical context and significance explanations
+- Recommendations for professional restorers
 
-## Introduction
-Have you ever wished to craft a chatbot tailored to your needs? Whether it's a culinary wizard to guide you through complex recipes or an artistic mentor to discuss the nuances of painting techniques, this comprehensive guide is your gateway. We'll walk you through the simple steps to build and deploy your own LLM-based chatbot using [Hugging Face Spaces](https://huggingface.co/spaces) and Gradio—all in just five minutes, and absolutely free of charge!
+## System Message
 
-## Prerequisites
-Before you  start creating your chatbot, make sure you have the following:
-- **A Hugging Face Account**: Essential for accessing the platform where you'll build and host your chatbot. [Sign up here](https://huggingface.co/join).
+The chatbot is initialized with the following system message:
 
-## Setup and Deployment
-1. **Choosing Your Chatbot’s Identity**: Decide what your chatbot will specialize in. This could be anything from a chef, painter, or even a relaxing buddy to help you unwind. The role you choose will define the interactions and capabilities of your chatbot.
+```python
+system_message = "You are a Historic Artifact Restoration Advisor. You provide expert advice on the restoration and preservation of historical artifacts. You offer detailed guidance on restoration techniques, preservation best practices, and damage assessment. You also help users understand the historical context and significance of their artifacts and connect them with professional restorers if needed."
+```
 
-2. **Logging into Hugging Face**:  Here, you'll need an account to access the tools required for deploying your chatbot. If you don't have an account, signing up is straightforward and quick.
+## Usage
 
-3. **Navigating to Hugging Face Spaces**: Spaces are where the magic happens. This section of Hugging Face allows users to create and manage their applications seamlessly. Navigate to [Spaces](https://huggingface.co/spaces) to get started.
+To use the Historic Artifact Restoration Advisor Chatbot, follow these steps:
 
-4. **Creating Your Space**: Initiate a new space by clicking on 'Create New Space'. It’s important that the name of your Space reflects the chatbot's role, as it helps in identifying the application’s purpose at a glance.
+1. Ensure you have Python 3.7+ installed on your system.
 
-5. **Configuring Your Chatbot**:
-   - **Selecting the Framework and Model**: Choose 'Gradio' as the framework for its user-friendly interface capabilities, and select a suitable model, such as 'Zephyr 7B', known for its versatility across various tasks.
-   - **Customization**: Here’s where you personalize the chatbot. Depending on the selected role, you might want to tailor system messages and interaction style. This customization will enable your chatbot to interact appropriately according to its role.
+2. Clone the repository:
+   ```
+   git clone https://github.com/DavidMahey396/ZephyrLLMChatbot.git
+   cd ZephyrLLMChatbot
+   ```
 
-6. **Deployment**: Once setup is complete, deploy your chatbot by simply clicking the create button. Deployment usually takes a couple of minutes. After this, your chatbot will be up and running and ready to interact.
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-## Customization Example
-To make your chatbot truly unique, consider personalizing it extensively. For instance, if you choose a 'Relaxing Buddy' role:
-- Modify the system messages to include comforting phrases and stress-relief tips.
-- Program the chatbot to suggest relaxation exercises, guide through meditation sessions, or simply offer soothing conversations.
+4. Run the chatbot:
+   ```
+   python chatbot.py
+   ```
 
- Explore different roles and tweak the system instructions to discover the full potential of your chatbot. Don’t forget to share your creations and experiences, as your insights could inspire others in their chatbot development.
+5. Once the chatbot is running, you can start interacting with it by typing your questions or requests related to historic artifact restoration. For example:
+   - "How should I clean a 19th-century oil painting?"
+   - "What's the best way to preserve an ancient ceramic vase?"
+   - "Can you help me assess the damage on this antique wooden furniture?"
 
- If you wish to contribute: Please fork this repo. 
+6. The chatbot will provide detailed responses based on its knowledge of restoration techniques, preservation practices, and historical context.
+Remember, while this chatbot provides expert advice, it's always recommended to consult with a professional conservator for valuable or sensitive artifacts.
 
- For any question reach me out @ turna.fardousi@gmail.com
+## Getting Started
 
+1. Clone this repository
+2. Install the required dependencies (list them here)
+3. Run the main script to start the chatbot
+
+## Contributing
+
+We welcome contributions to improve the chatbot's knowledge base and functionality. Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests.
+
+## Disclaimer
+
+This chatbot is designed to provide general advice and information. For valuable or sensitive artifacts, always consult with a professional conservator or restoration expert.
+
+## Contact
+
+For any questions or concerns, please open an issue in this repository or contact da4368396@alphacollege.me
